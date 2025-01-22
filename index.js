@@ -29,9 +29,19 @@ const gamesContainer = document.getElementById("games-container");
 function addGamesToPage(games) {
 
     // loop over each item in the data
-
+    for(let i = 0;i< games.length; i++){
+        const game_disp = document.createElement("div")
+        game_disp.classList.add("game-card")
+        game_disp.innerHTML = `
+        <p>${games[i].name}<p>
+        <p>${games[i].description}</p>
+        <img class="game-img" src="${games[i].img}">
+        `   ;
+        gamesContainer.appendChild(game_disp);
+    }
 
         // create a new div element, which will become the game card
+    
 
 
         // add the class game-card to the list
@@ -46,6 +56,7 @@ function addGamesToPage(games) {
         // append the game to the games-container
 
 }
+addGamesToPage(GAMES_JSON);
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
@@ -62,6 +73,9 @@ const contributionsCard = document.getElementById("num-contributions");
 
 // use reduce() to count the number of total contributions by summing the backers
 
+const num_contributions = GAMES_JSON.redue((acc, contriutions)=>{
+
+})
 
 // set the inner HTML using a template literal and toLocaleString to get a number with commas
 
