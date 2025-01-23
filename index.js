@@ -78,7 +78,7 @@ const num_contributions = GAMES_JSON.reduce((acc, game)=>
     {
         return acc+game.backers;
 },0);
-contributionsCard.innerHTML = JSON.stringify(num_contributions);
+contributionsCard.innerHTML = `${num_contributions.toLocaleString()}`
 
 // set the inner HTML using a template literal and toLocaleString to get a number with commas
 
