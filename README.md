@@ -41,8 +41,6 @@ GIF created with LiceCap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
 I initially struggled with writing HTML elements within a JS environment. But it became easier afterwards.
 
 ## License
