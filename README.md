@@ -35,7 +35,8 @@ GIF created with LiceCap
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
-![webworkrecording](https://github.com/user-attachments/assets/db4b5e53-7603-4536-9071-c0a33d6f4469)
+![webworkrecording](https://github.com/user-attachments/assets/83adc2ae-7f53-48e5-af53-5e263ee227be)
+
 
 
 ## Notes
